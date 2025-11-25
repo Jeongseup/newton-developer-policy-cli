@@ -19,3 +19,6 @@ op-sim/debug/
 op-sim/target/
 
 script/rust/target
+
+# In the WASM args, there would be some private inputs, so we don't want to commit it.
+wasm_args.json
