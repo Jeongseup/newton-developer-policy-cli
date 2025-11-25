@@ -1,0 +1,7 @@
+{
+  "name": "OpenDART Financial Data Fetcher",
+  "version": "1.0.0",
+  "author": "Jeongseup",
+  "description": "Fetches real-time financial data (Total Equity, Cash Reserves) from the OpenDART API (Korean Financial Supervisory Service) to verify fiat reserves.",
+  "link": "https://engopendart.fss.or.kr/intro/main.do"
+}

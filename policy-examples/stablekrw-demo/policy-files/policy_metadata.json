@@ -1,0 +1,7 @@
+{
+  "name": "Stable KRW Minting Demo Policy",
+  "version": "1.0.0",
+  "author": "Jeongseup",
+  "description": "A demo policy that verifies if the issuer holds sufficient off-chain fiat reserves (minimum capital requirements) before allowing the minting of stablecoins (sKRW).",
+  "link": "https://github.com/Jeongseup/newton-developer-policy-cli/blob/feature/add-stablekrw-demo/policy-examples/stablekrw-demo/README.md"
+}
