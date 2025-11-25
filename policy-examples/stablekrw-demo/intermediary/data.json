@@ -1,0 +1,11 @@
+{
+  "data": {
+    "currency": "KRW",
+    "thstrm_amount": 237983778130,
+    "thstrm_dt": "2025-09-30"
+  },
+  "params": {
+    "currency": "KRW",
+    "minimum_capital_requirements": 5000000000
+  }
+}

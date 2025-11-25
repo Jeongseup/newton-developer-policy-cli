@@ -47,7 +47,7 @@ export function run(input) {
   const date = dateMatch ? `${dateMatch[1]}-${dateMatch[2]}-${dateMatch[3]}` : targetData.thstrm_dt;
 
   return JSON.stringify({
-    thstrm_amount: amount,
+    thstrm_amount: Number(amount),
     currency: targetData.currency,
     thstrm_dt: date
   });  

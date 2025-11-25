@@ -1,0 +1,8 @@
+{
+  "entrypoint": "data.stablekrw_demo.allow",
+  "status": "ok",
+  "wrote": {
+    "data_json": "intermediary/data.json",
+    "input_json": "intermediary/input.json"
+  }
+}
