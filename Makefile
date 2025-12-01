@@ -280,3 +280,12 @@ spend-attestation:
 	fi; \
 	echo "Spending attestation in file: $$ATTESTATION_FILE"; \
 	POLICY_CLIENT=$(POLICY_CLIENT) ATTESTATION_FILE="$$ATTESTATION_FILE" DEPLOYMENT_ENV=$$DEPLOYMENT_ENV forge script script/SpendAttestation.s.sol:ClientAttestationSpender --rpc-url $$RPC_URL --private-key $$PRIVATE_KEY --broadcast
+
+deploy-stable-krw:
+	@source .env; \
+	export TEMP_CHAIN_ID=$(CHAIN_ID); \
+	if [ $$(cast chain-id -r $$RPC_URL) != $$TEMP_CHAIN_ID ]; then \
+		echo "Error: Chain ID does not match RPC_URL"; \
+		exit 1; \
+	fi; \
+	DEPLOYMENT_ENV=$$DEPLOYMENT_ENV forge script script/DeployStableKRW.s.sol:DeployStableKRW --rpc-url $$RPC_URL --private-key $$PRIVATE_KEY --broadcast

@@ -1,10 +1,10 @@
 {
-  "from": "0xf2168be2f3ae8989696705b211c7b9d65e3416da",
+  "from": "0xce8920edb78e2e0edd9fad3d8d4a659a5dc7fbc5",
   "to": "0x8f86403a4de0bb5791fa46b8e795c547942fe4cf",
   "value": 0,
-  "data": "0x28dca9f70000000000000000000000008f86403a4de0bb5791fa46b8e795c547942fe4cf000000000000000000000000000000000000000000000000000000174876e8000000000000000000000000000000000000000000000000000000000000000002",
+  "data": "0x40c10f190000000000000000000000008f86403a4de0bb5791fa46b8e795c547942fe4cf0000000000000000000000000000000000000000000000000de0b6b3a7640000",
   "chain_id": null,
-  "function_signature": "0x62757928616464726573732c75696e743235362c75696e74333229",
+  "function_signature": "0x6d696e7428616464726573732c75696e7432353629",
   "function": {
     "inputs": [
       {
@@ -14,21 +14,16 @@
       {
         "name": "",
         "type": "uint256"
-      },
-      {
-        "name": "",
-        "type": "uint32"
       }
     ],
-    "name": "buy",
+    "name": "mint",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
   },
-  "decoded_function_signature": "function buy(address, uint256, uint32)",
+  "decoded_function_signature": "function mint(address, uint256)",
   "decoded_function_arguments": [
     "0x8f86403a4de0bb5791fa46b8e795c547942fe4cf",
-    "100000000000",
-    "2"
+    "1000000000000000000"
   ]
 }

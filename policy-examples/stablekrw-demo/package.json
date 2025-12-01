@@ -1,0 +1,24 @@
+{
+  "name": "stablekrw-demo",
+  "version": "1.0.0",
+  "description": "This Proof of Concept (POC) demonstrates a \"Proof of Reserve\" policy for minting a Korean Won stablecoin (sKRW). It ensures that new tokens can only be minted if the issuer holds sufficient off-chain fiat reserves, verified cryptographically via the Newton Protocol.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "verify": "ts-node scripts/verify-intent.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@magicnewton/newton-protocol-sdk": "^0.2.6",
+    "dotenv": "^17.2.3",
+    "viem": "^2.40.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
